@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>VC Test Main Package</name>
         <uuid>_a-0000df04-4e83-8000-5130-010000010000_91032</uuid>
@@ -45,6 +46,7 @@
                         <uuid>_a-0000dcb6-5d2b-8000-5130-010000010000_31396</uuid>
                         <uuid>_a-0000df04-4e83-8000-5130-010000010000_91035</uuid>
                     <uuid>_a-0000df04-4e83-8000-5130-010000010000_91038</uuid>
+                    <uuid>_a-0000df04-4e83-8000-5130-010000010000_91041</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -230,4 +232,4 @@
             </role>
         </contentRoleMap>
     </roleMap>
-</applicationHaul><!--updated on 2017-07-17T17:38:00.448-->
+</applicationHaul><!--updated on 2017-07-17T17:40:55.596-->

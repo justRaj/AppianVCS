@@ -1,33 +1,32 @@
 Success (1):
-content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 "VCT_CON3"
+content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 "VCT_CON4"
 
-Referenced precedents that were not exported (2):
-user 554964 554964
+Referenced precedents that were not exported (1):
 content 29827 _a-0000dcb6-5d2b-8000-5130-010000010000_31396
 
 Trace:
-2017-07-14 10:20:31.266 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Begin transport.
-2017-07-14 10:20:31.266 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Retrieving object data.
-2017-07-14 10:20:31.274 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Setting uuids of object references.
-2017-07-14 10:20:31.274 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: [Content:id=86055,versionId=-1,name=VCT_CON3,description=,type=32,subtype=0,uuid=_a-0000df04-4e83-8000-5130-010000010000_91038,parent=29827,parentName=554964,parentType=2,log=86055,logName=VCT_CON3,state=255,visibility=35,security=143,creator=554964,createdTimestamp=2017-07-14 10:19:56.0,updatedTimestamp=2017-07-14 10:19:56.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, isEnvironmentSpecific=false, value=3, returnType=1},partition=2,partitionName=D:/Appian171/_admin/accdocs2]
-2017-07-14 10:20:31.275 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: Constant.forum
-2017-07-14 10:20:31.275 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: Constant.parent
-2017-07-14 10:20:31.281 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@7e0eb40f[
+2017-07-14 10:21:38.802 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Begin transport.
+2017-07-14 10:21:38.802 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Retrieving object data.
+2017-07-14 10:21:38.809 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Setting uuids of object references.
+2017-07-14 10:21:38.81 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: [Content:id=86058,versionId=-1,name=VCT_CON4,description=,type=32,subtype=0,uuid=_a-0000df04-4e83-8000-5130-010000010000_91041,parent=29827,parentName=554964,parentType=2,log=86058,logName=VCT_CON4,state=255,visibility=35,security=15,creator=554964,createdTimestamp=2017-07-14 10:21:12.0,updatedTimestamp=2017-07-14 10:21:12.0,size=0,lockedBy=,changesRequireApproval=false,attributes={system=0, hidden=0, ruletype=0, multiple=0, isEnvironmentSpecific=false, value=4, returnType=1},partition=2,partitionName=D:/Appian171/_admin/accdocs2]
+2017-07-14 10:21:38.81 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: Constant.forum
+2017-07-14 10:21:38.81 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: Constant.parent
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@19115811[
   ContentRole[name=readers,inherit=true,allowForAll=false]
   ContentRole[name=authors,inherit=true,allowForAll=false]
-  ContentRole[name=administrators,usernames=[554964],inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
   ContentRole[name=denyReaders,inherit=false,allowForAll=false]
   ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
   ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-  securityVector=143:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
 ]
-2017-07-14 10:20:31.282 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
-2017-07-14 10:20:31.282 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
-2017-07-14 10:20:31.282 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: ContentRole[name=administrators,usernames=[554964],inherit=true,allowForAll=false]
-2017-07-14 10:20:31.283 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2017-07-14 10:20:31.283 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2017-07-14 10:20:31.283 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2017-07-14 10:20:31.283 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Completing produce.
-2017-07-14 10:20:31.283 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Exporting binary resources.
-2017-07-14 10:20:31.283 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Serializing object to XML.
-2017-07-14 10:20:31.286 DEBUG content 86055 _a-0000df04-4e83-8000-5130-010000010000_91038 Object transported.
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Completing produce.
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Exporting binary resources.
+2017-07-14 10:21:38.816 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Serializing object to XML.
+2017-07-14 10:21:38.819 DEBUG content 86058 _a-0000df04-4e83-8000-5130-010000010000_91041 Object transported.
